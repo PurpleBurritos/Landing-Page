@@ -1,0 +1,36 @@
+.header-content{ 
+    margin: -8px;
+    margin-top: -15px;
+    background-color: #1f2937;
+    font-family: sans-serif; 
+} 
+
+.logo{ 
+    display: flex; 
+    font-size: 24px;
+    font-weight: 905; 
+    color: #f9faf8; 
+    display: flex; 
+    justify-content: flex-start; 
+    align-items: flex-end; 
+    margin-top: 15px;
+    margin-left: 210px;
+} 
+
+.header-links{
+    display: flex; 
+    font-size: 18px; 
+    flex-direction: row; 
+    justify-content: flex-end; 
+    font-size: 18px; 
+    font-family: sans-serif; 
+    color: #e5e7eb; 
+    margin-top: -45px;
+    margin-right: 210px;
+}
+.header-content-hero-title{
+    color: #f9faf8;
+    font-size: 30px;
+    font-weight: 900;
+    display: flex; 
+}
