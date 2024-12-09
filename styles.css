@@ -1,6 +1,6 @@
 .header-content{ 
     margin: -8px;
-    margin-top: -15px;
+    margin-top: -25px;
     background-color: #1f2937;
     font-family: sans-serif; 
 } 
@@ -13,8 +13,8 @@
     display: flex; 
     justify-content: flex-start; 
     align-items: flex-end; 
-    margin-top: 15px;
     margin-left: 210px;
+    padding-top: 40px;
 } 
 
 .header-links{
@@ -25,12 +25,79 @@
     font-size: 18px; 
     font-family: sans-serif; 
     color: #e5e7eb; 
-    margin-top: -45px;
+    margin-top: -50px;
     margin-right: 210px;
 }
+
+.header-content-hero{
+    margin: -8px;
+    margin-top: -60px;
+    background-color: #1f2937;
+    font-family: sans-serif; 
+    padding-top: 50px;
+    padding-bottom: 190px;
+}
+
 .header-content-hero-title{
     color: #f9faf8;
-    font-size: 30px;
+    font-size: 48px;
     font-weight: 900;
+    margin-top: 30px;
     display: flex; 
+    margin-left: 200px;
+}
+
+.header-content-hero-text-body{
+    display: flex;
+    flex-direction: column;
+    margin-top: -67px;
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-left: 200px;
+}
+
+.header-content-hero-image-placeholder-text{
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    color: #e5e7eb;
+    font-family: sans-serif;
+}
+
+.header-content-hero-image-placeholder{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-self: center;
+    background-color: gray;
+    margin-right: -450px;
+    margin-top: -380px;
+    padding-top: 110px;
+    padding-bottom: 110px;
+    padding-left: 130px;
+    padding-right: 130px
+}
+
+.sign-up-button{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-self: center;
+    background-color: #3882f6;
+    border-radius: 6px;
+    margin-top: -50px;
+    margin-left: -870px;
+}
+
+.sign-up-button-text{
+    display: flex;
+    color: #ffffff;
+    justify-self: center;
+    align-self: center;
+    font-family: sans-serif; 
+    font-size: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 13px;
+    padding-right: 13px;
 }
